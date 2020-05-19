@@ -1,0 +1,16 @@
+
+[1mFrom:[0m /home/jose/the-odin-project/chess_game/lib/chess_game.rb:155 Object#right_choice?:
+
+    [1;34m154[0m: [32mdef[0m [1;34mright_choice?[0m(selection, turn)
+ => [1;34m155[0m: binding.pry
+    [1;34m156[0m:   [1;34m#Authorizing BLACK ones[0m
+    [1;34m157[0m:   [32mif[0m ((selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{265A}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{265B}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{265C}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{265D}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{265E}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{265F}[1;31m"[0m[31m[0m)) && (turn == [31m[1;31m"[0m[31mblack[1;31m"[0m[31m[0m)
+    [1;34m158[0m:     [32mreturn[0m [1;36mtrue[0m
+    [1;34m159[0m:   [1;34m#Authorizing WHITE ones[0m
+    [1;34m160[0m:   [32melsif[0m ((selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{2654}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{2655}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{2656}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{2657}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{2658}[1;31m"[0m[31m[0m) || (selection == [31m[1;31m"[0m[31m[1;35m\u[0m[31m{2659}[1;31m"[0m[31m[0m)) && (turn == [31m[1;31m"[0m[31mwhite[1;31m"[0m[31m[0m)
+    [1;34m161[0m:     [32mreturn[0m [1;36mtrue[0m
+    [1;34m162[0m:   [32melse[0m
+    [1;34m163[0m:     [1;36mfalse[0m
+    [1;34m164[0m:   [32mend[0m
+    [1;34m165[0m: [32mend[0m
+
